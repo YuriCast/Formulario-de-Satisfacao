@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: monospace
+}
+
+header{
+    background-color: #ff8731;
+    padding: 20px;
+}
+
+header h2{
+    color: #d72300;
+}
+
+footer{
+    background-color: #ff8731;
+    padding: 20px;
+}
+
+footer li{
+    color:#d72300;
+}
+
+.div-product{
+    margin: auto;
+    width: 40%;
+}
+
+.div-product img{
+    width: 100%;
+}
+
+.container{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+    padding: 8px;
+    border-radius: 15px;
+    border: 2px solid #d72300;
+}
+
+.div-title{
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #d72300;
+    border-radius: 15px;
+}
+
+.div-title h2{
+    color: #ff8731;
+    text-align: center;
+}
+
+.div-question{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.div-options{
+    display: flex;
+    font-size: medium;
+    border: 2px solid #d72300;
+    border-radius: 25px;
+    margin-top: 5px;
+    padding: 5px
+}
+
+.div-options label{
+    margin-right: 100px;
+}
+
+.div-options button{
+    width: 100%;
+    background-color: #ff8731;
+    color: #d72300;
+    border-radius: 25px;
+    border: 2px solid #ff8731;
+    cursor: pointer;
+}
+
+.div-options button:hover{
+    background-color: #d72300;
+    color:white;
+}
+
+@media screen and (max-width: 650px){
+    .div-options{
+        display: block;
+    }
+}
