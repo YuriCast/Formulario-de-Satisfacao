@@ -15,6 +15,7 @@ header h2{
 footer{
     background-color: #ff8731;
     padding: 20px;
+    border-radius: 15px;
 }
 
 footer li{
@@ -43,12 +44,12 @@ footer li{
 .div-title{
     margin-bottom: 10px;
     padding: 15px;
-    background-color: #d72300;
+    background-color: #ff8731;
     border-radius: 15px;
 }
 
 .div-title h2{
-    color: #ff8731;
+    color: #d72300;
     text-align: center;
 }
 
@@ -67,7 +68,7 @@ footer li{
 }
 
 .div-options label{
-    margin-right: 100px;
+    margin-right: 120px;
 }
 
 .div-options button{
